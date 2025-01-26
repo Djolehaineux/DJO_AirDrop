@@ -102,7 +102,8 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 `"M4_CQBBttstck"` nom types de l'attachement  
 
 
-[exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'une nouvel catégorie d'items
+[exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'une nouvel catégorie d'items  
+
 ---
 
 [retourner a la collections](https://github.com/Djolehaineux/DJO-mods-collection)
