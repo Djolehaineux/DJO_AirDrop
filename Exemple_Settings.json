@@ -1,0 +1,95 @@
+//////////////////////////////////////////////////////////////////////////////////
+//																				//
+//							ATTENTION !											//
+//																				//
+//	Ce fichier est un exemple il ne peux etre utiliser dans l'etat actuel		//
+//																				//
+//////////////////////////////////////////////////////////////////////////////////
+
+{
+    "ConfigVersion": "1",
+    "isEnabled": 1,
+    "spawnInterval": 1800.0,
+    "cleanTime": 1200.0,
+    "isFullyInitialized": 0,
+    "airdropTypes": [
+        "AirDrop_T1",
+		"SeaChest"	// exemple d'integrations du SeaChest
+    ],
+    "airdropTypeConfigs": {
+        "AirDrop_T1": {
+            "positions": [
+                {
+                    "position": [
+                        11872.8017578125,
+                        140.00003051757813,
+                        12555.943359375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a l' Airfield! (Krasno)"
+                }
+            ],
+            "spawnCountMin": 1,
+            "spawnCountMax": 1,
+            "airdropLoot": {
+                "categories": {
+                    "Weapons_01": 1
+                }
+            },
+            "creatureCountMin": 5,
+            "creatureCountMax": 10,
+            "creatureTypes": [
+                "ZmbF_PoliceWomanNormal",
+                "Animal_CanisLupus_Grey"
+            ]
+        },
+		// exemple d'integrations du SeaChest
+        "SeaChest": {
+            "positions": [
+                {
+                    "position": [
+                        11872.8017578125,
+                        140.00003051757813,
+                        12555.943359375
+                    ],
+                    "message": "Alerte! Un SeaChest a atterri a l' Airfield! (Krasno)"
+                }
+            ],
+            "spawnCountMin": 1,
+            "spawnCountMax": 1,
+            "airdropLoot": {
+                "categories": {
+                    "SeaChest": 1
+                }
+            },
+            "creatureCountMin": 5,
+            "creatureCountMax": 10,
+            "creatureTypes": [
+                "ZmbF_PoliceWomanNormal",
+                "Animal_CanisLupus_Grey"
+                // ici vous pouvez ajoutez de nouvel créature
+            ]
+        }
+    },
+    "Categories": {
+        "Weapons_01": [
+            {
+                "item": "M4A1",
+                "attachments": [
+                    "M4_CQBBttstck",
+                    "M4_MPHndgrd",
+                    "ACOGOptic_6x",
+                    "M4_Suppressor",
+                    "Mag_STANAG_60Rnd"
+                ]
+            }
+        ],
+		// exemple d'integrations d'une catégories SeaChest
+        "SeaChest": [
+            {
+				// Ajouts d'un items a la catégories SeaChest sans attachement
+                "item": "SeaChest",
+                "attachments": []
+            }
+        ]
+    }
+}

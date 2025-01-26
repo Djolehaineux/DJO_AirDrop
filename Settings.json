@@ -1,0 +1,509 @@
+{
+    "ConfigVersion": "1",
+    "isEnabled": 1,
+    "spawnInterval": 1800.0,
+    "cleanTime": 1200.0,
+    "isFullyInitialized": 0,
+    "airdropTypes": [
+        "AirDrop_T1",
+        "AirDrop_T2",
+        "AirDrop_T3",
+        "AirDrop_T4"
+    ],
+    "airdropTypeConfigs": {
+        "AirDrop_T1": {
+            "positions": [
+                {
+                    "position": [
+                        11872.8017578125,
+                        140.00003051757813,
+                        12555.943359375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a l' Airfield! (Krasno)"
+                },
+                {
+                    "position": [
+                        13632.69140625,
+                        5.665925025939941,
+                        13731.740234375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a proximité de Svetlo!"
+                },
+                {
+                    "position": [
+                        10487.826171875,
+                        5.9999918937683109,
+                        2348.240234375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a Elektrozavodsk!"
+                },
+                {
+                    "position": [
+                        7236.5966796875,
+                        30.402400970458986,
+                        3062.87109375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a proximité de Prigorodki!"
+                },
+                {
+                    "position": [
+                        5103.63720703125,
+                        9.34485912322998,
+                        2289.9912109375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a l' Airfield! (Balota)"
+                }
+            ],
+            "spawnCountMin": 1,
+            "spawnCountMax": 2,
+            "airdropLoot": {
+                "categories": {
+                    "Drink": 1,
+                    "Ammo_01": 2,
+                    "Weapons_01": 1,
+                    "Food": 2,
+                    "Magasin_01": 2,
+                    "Clothes_01": 1
+                }
+            },
+            "creatureCountMin": 5,
+            "creatureCountMax": 10,
+            "creatureTypes": [
+                "ZmbF_PoliceWomanNormal",
+                "ZmbM_PolicemanFat",
+                "ZmbM_PolicemanSpecForce",
+                "ZmbM_PolicemanSpecForce_Heavy"
+            ]
+        },
+        "AirDrop_T2": {
+            "positions": [
+                {
+                    "position": [
+                        2780.9482421875,
+                        25.97694969177246,
+                        1199.8145751953126
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a Storozh!"
+                },
+                {
+                    "position": [
+                        2146.489990234375,
+                        105.13048553466797,
+                        3356.711181640625
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a MB Pavlovo!"
+                },
+                {
+                    "position": [
+                        8501.3681640625,
+                        203.8199920654297,
+                        13954.0234375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a Arsenovo!"
+                }
+            ],
+            "spawnCountMin": 1,
+            "spawnCountMax": 1,
+            "airdropLoot": {
+                "categories": {
+                    "Drink": 1,
+                    "Ammo_02": 2,
+                    "Food": 2,
+                    "Magasin_02": 2,
+                    "Weapons_02": 1,
+                    "Clothes_02": 1
+                }
+            },
+            "creatureCountMin": 5,
+            "creatureCountMax": 10,
+            "creatureTypes": [
+                "ZmbM_PatrolNormal_Autumn",
+                "ZmbM_PatrolNormal_Flat",
+                "ZmbM_PatrolNormal_PautRev",
+                "ZmbM_PatrolNormal_Summer",
+                "ZmbM_SoldierNormal",
+                "ZmbM_usSoldier_Heavy_Woodland",
+                "ZmbM_usSoldier_Officer_Desert",
+                "ZmbM_usSoldier_normal_Desert",
+                "ZmbM_usSoldier_normal_Woodland"
+            ]
+        },
+        "AirDrop_T3": {
+            "positions": [
+                {
+                    "position": [
+                        8031.79638671875,
+                        347.8554992675781,
+                        14641.908203125
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a MB Kamensk!"
+                },
+                {
+                    "position": [
+                        4567.958984375,
+                        364.4893493652344,
+                        10853.3486328125
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a l' Airfield! (Vybor)"
+                },
+                {
+                    "position": [
+                        4628.53515625,
+                        362.6519470214844,
+                        10433.9365234375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a l' Airfield! (Vybor)"
+                },
+                {
+                    "position": [
+                        4542.71826171875,
+                        353.00048828125,
+                        9610.3193359375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a l' Airfield! (Vybor)"
+                },
+                {
+                    "position": [
+                        4519.00439453125,
+                        316.93243408203127,
+                        8304.6015625
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a MBVMC!"
+                },
+                {
+                    "position": [
+                        2529.0263671875,
+                        200.38339233398438,
+                        5141.7548828125
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a MB Zeleno!"
+                }
+            ],
+            "spawnCountMin": 1,
+            "spawnCountMax": 2,
+            "airdropLoot": {
+                "categories": {
+                    "Drink": 1,
+                    "Clothes_03": 1,
+                    "Food": 2,
+                    "Ammo_03": 2,
+                    "Magasin_03": 2,
+                    "Weapons_03": 1
+                }
+            },
+            "creatureCountMin": 5,
+            "creatureCountMax": 7,
+            "creatureTypes": [
+                "Animal_CanisLupus_Grey",
+                "Animal_CanisLupus_White"
+            ]
+        },
+        "AirDrop_T4": {
+            "positions": [
+                {
+                    "position": [
+                        1685.907470703125,
+                        460.6330261230469,
+                        14211.1279296875
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a MB Tisy!"
+                },
+                {
+                    "position": [
+                        1387.1278076171876,
+                        467.83831787109377,
+                        14426.498046875
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a MB Tisy!"
+                },
+                {
+                    "position": [
+                        1541.3494873046876,
+                        439.010009765625,
+                        13598.857421875
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a MB Tisy!"
+                }
+            ],
+            "spawnCountMin": 1,
+            "spawnCountMax": 1,
+            "airdropLoot": {
+                "categories": {
+                    "Drink": 1,
+                    "Weapons_04": 1,
+                    "Clothes_04": 3,
+                    "Food": 2,
+                    "Ammo_04": 2,
+                    "Magasin_04": 2
+                }
+            },
+            "creatureCountMin": 3,
+            "creatureCountMax": 5,
+            "creatureTypes": [
+                "Animal_UrsusArctos"
+            ]
+        }
+    },
+    "Categories": {
+        "Drink": [
+            {
+                "item": "Canteen",
+                "attachments": []
+            },
+            {
+                "item": "WaterBottle",
+                "attachments": []
+            },
+            {
+                "item": "SodaCan_Cola",
+                "attachments": []
+            },
+            {
+                "item": "SodaCan_Fronta",
+                "attachments": []
+            },
+            {
+                "item": "SodaCan_Kvass",
+                "attachments": []
+            },
+            {
+                "item": "SodaCan_Pipsi",
+                "attachments": []
+            },
+            {
+                "item": "SodaCan_Spite",
+                "attachments": []
+            }
+        ],
+        "Clothes_03": [
+            {
+                "item": "TTsKOJacket_Camo",
+                "attachments": []
+            },
+            {
+                "item": "TTSKOPants",
+                "attachments": []
+            },
+            {
+                "item": "PlateCarrierVest_Green",
+                "attachments": [
+                    "PlateCarrierPouches_Green",
+                    "PlateCarrierHolster_Green"
+                ]
+            }
+        ],
+        "Clothes_04": [
+            {
+                "item": "USMCJacket_Woodland",
+                "attachments": []
+            },
+            {
+                "item": "USMCPants_Woodland",
+                "attachments": []
+            },
+            {
+                "item": "PlateCarrierVest_Camo",
+                "attachments": [
+                    "PlateCarrierPouches_Camo",
+                    "PlateCarrierHolster_Camo"
+                ]
+            }
+        ],
+        "Weapons_01": [
+            {
+                "item": "M4A1",
+                "attachments": [
+                    "M4_CQBBttstck",
+                    "M4_MPHndgrd",
+                    "ACOGOptic_6x",
+                    "M4_Suppressor",
+                    "Mag_STANAG_60Rnd"
+                ]
+            },
+            {
+                "item": "Aug",
+                "attachments": [
+                    "ACOGOptic_6x",
+                    "M4_Suppressor",
+                    "Mag_STANAG_60Rnd"
+                ]
+            },
+            {
+                "item": "AK101_Black",
+                "attachments": [
+                    "AK_PlasticBttstck_Green",
+                    "AK_RailHndgrd_Green",
+                    "AK_Suppressor",
+                    "Mag_AK101_30Rnd"
+                ]
+            }
+        ],
+        "Weapons_03": [
+            {
+                "item": "SVD",
+                "attachments": [
+                    "PSO11Optic",
+                    "AK_Suppressor",
+                    "Mag_SVD_10Rnd"
+                ]
+            }
+        ],
+        "Weapons_02": [
+            {
+                "item": "AKM",
+                "attachments": [
+                    "AK_PlasticBttstck_Green",
+                    "AK_RailHndgrd_Green",
+                    "AK_Suppressor",
+                    "Mag_AKM_Drum75Rnd_Green"
+                ]
+            }
+        ],
+        "Magasin_01": [
+            {
+                "item": "Mag_STANAG_60Rnd",
+                "attachments": []
+            },
+            {
+                "item": "Mag_AK101_30Rnd",
+                "attachments": []
+            }
+        ],
+        "Magasin_02": [
+            {
+                "item": "Mag_AKM_Drum75Rnd_Green",
+                "attachments": []
+            },
+            {
+                "item": "Mag_AKM_Drum75Rnd_Black",
+                "attachments": []
+            }
+        ],
+        "Magasin_03": [
+            {
+                "item": "Mag_SVD_10Rnd",
+                "attachments": []
+            }
+        ],
+        "Magasin_04": [
+            {
+                "item": "Mag_M14_20Rnd",
+                "attachments": []
+            },
+            {
+                "item": "Mag_FAL_20Rnd",
+                "attachments": []
+            }
+        ],
+        "Weapons_04": [
+            {
+                "item": "M14",
+                "attachments": [
+                    "ACOGOptic_6x",
+                    "Mag_M14_20Rnd"
+                ]
+            },
+            {
+                "item": "FAL",
+                "attachments": [
+                    "Fal_OeBttstck",
+                    "M4_Suppressor",
+                    "ACOGOptic_6x",
+                    "Mag_FAL_20Rnd"
+                ]
+            }
+        ],
+        "Ammo_01": [
+            {
+                "item": "Ammo_556x45",
+                "attachments": []
+            },
+            {
+                "item": "Ammo_556x45Tracer",
+                "attachments": []
+            }
+        ],
+        "Ammo_02": [
+            {
+                "item": "Ammo_762x39",
+                "attachments": []
+            },
+            {
+                "item": "Ammo_762x39Tracer",
+                "attachments": []
+            }
+        ],
+        "Food": [
+            {
+                "item": "TacticalBaconCan",
+                "attachments": []
+            },
+            {
+                "item": "BakedBeansCan",
+                "attachments": []
+            },
+            {
+                "item": "PeachesCan",
+                "attachments": []
+            },
+            {
+                "item": "SpaghettiCan",
+                "attachments": []
+            }
+        ],
+        "Ammo_04": [
+            {
+                "item": "Ammo_308Win",
+                "attachments": []
+            },
+            {
+                "item": "Ammo_308WinTracer",
+                "attachments": []
+            }
+        ],
+        "Ammo_03": [
+            {
+                "item": "Ammo_762x54",
+                "attachments": []
+            },
+            {
+                "item": "Ammo_762x54Tracer",
+                "attachments": []
+            }
+        ],
+        "Clothes_01": [
+            {
+                "item": "BDUJacket",
+                "attachments": []
+            },
+            {
+                "item": "BDUPants",
+                "attachments": []
+            },
+            {
+                "item": "PlateCarrierVest_Black",
+                "attachments": [
+                    "PlateCarrierPouches_Black",
+                    "PlateCarrierHolster_Black"
+                ]
+            }
+        ],
+        "Clothes_02": [
+            {
+                "item": "USMCJacket_Desert",
+                "attachments": []
+            },
+            {
+                "item": "USMCPants_Desert",
+                "attachments": []
+            },
+            {
+                "item": "PlateCarrierVest",
+                "attachments": [
+                    "PlateCarrierPouches",
+                    "PlateCarrierHolster"
+                ]
+            }
+        ]
+    }
+}
