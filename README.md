@@ -2,14 +2,14 @@
 Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_AirDrop
 
 ### Déscriptions
-Ce mods est mon premier mod d'AirDrop, il peux etre entièrement configurable vous pouvez aussi bien l'utiliser avec mes container que avec des containers provenant d'autre mods .
-Les AirDrop généré n'on pas de persistente est sont donc supprimer de la carte a chaque redémarrage .
-Un message est t'envoyée dans le canal de chate a chaque générations d'airdrop.
-le fait de pouvoir paramètré le types de caisse est les créature offre la possibilité de l'utiliser pour crée des horde.
+Ce mod est mon premier mod d'AirDrop, il peut être entièrement configurable. Vous pouvez aussi bien l'utiliser avec mes containers que avec des containers provenant d'autres mods.
+Les AirDrop générés n'ont pas de persistance et sont donc supprimés de la carte à chaque redémarrage.
+Un message est envoyé dans le canal de chat à chaque génération d'Airdrop.
+Le fait de pouvoir paramétrer le type de caisse et les créatures offre la possibilité de l'utiliser pour créer des hordes.
 
 
 ## INSTALLATION
-- Placer le mod a la racine de votre serveur. (dans le dossier 📂**dayzstandalone**)
+- Placer le mod à la racine de votre serveur. (dans le dossier 📂**dayzstandalone**)
 - Placer la key qui se trouve à l'intérieur du dossier 📂**KEY** du mod dans le dossier 📂**KEY** de votre serveur.
 - Ajoutez `@DJO_AirDrop` a la barre de lancement de vot mods.  
 (la configurations peux changer suivant l'hebergeur)
@@ -60,8 +60,8 @@ le fait de pouvoir paramètré le types de caisse est les créature offre la pos
     },
 ```
 `"isEnabled": 1,` Activer ou désactiver les AirDrop (1 = Activer / 0 = Désactiver)  
-`"spawnInterval": 1800.0,`Interval entre chaque vague d'apparition des AirDrop (Temps definie en seconde = 30 minutes)  
-`"cleanTime": 1200.0,`Temps avant suppression des AirDrop dans le monde (Temps definie en seconde = 20 minutes)  
+`"spawnInterval": 1800.0,`Interval entre chaque vague d'apparition des AirDrop (Temps défini en seconde = 30 minutes)  
+`"cleanTime": 1200.0,`Temps avant suppression des AirDrop dans le monde (Temps défini en seconde = 20 minutes)  
 `"airdropTypeConfigs"` Gestion des apparition des différent types d'AirDrop  
 `"AirDrop_T1"` Début de la configuration de l'AirDrop_T1  
 `"positions"` class qui definie l'enssemble des position pour l'AirDrop_T1  
