@@ -40,6 +40,10 @@ Gestion des apparition des AirDrop `"airdropTypeConfigs"`
     "message": "Alerte! Un airdrop a atterri a l' Airfield! (Krasno)"
 }
 ```
+
+`"spawnCountMin": 1,` quantité minimum d'AirDrop_T1 pouvent étre généré en même temps  
+`"spawnCountMax": 2,` quantité maximum d'AirDrop_T1 pouvent étre généré en même temps  
+
 ---
 
 [retourner a la collections](https://github.com/Djolehaineux/DJO-mods-collection)
