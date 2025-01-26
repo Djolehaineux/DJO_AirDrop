@@ -18,7 +18,7 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
     "isFullyInitialized": 0,
     "airdropTypes": [
         "AirDrop_T1"
-        // ici vous pouvez ajoutez de nouveaux container exemple : SeaChest
+        // ici vous pouvez ajoutez de nouveaux container exemple: SeaChest
     ],
     "airdropTypeConfigs": {
         "AirDrop_T1": {
@@ -31,13 +31,13 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
                     ],
                     "message": "Alerte! Un airdrop a atterri a l' Airfield! (Krasno)"
                 }
+                // ici vous pouvez ajoutez de nouvel position
             ],
             "spawnCountMin": 1,
             "spawnCountMax": 2,
             "airdropLoot": {
                 "categories": {
-                    "Drink": 1,
-                    "Ammo_01": 2
+                    "Weapons_01": 1
                     // ici vous pouvez ajoutez de nouvel categories d'items
                 }
             },
@@ -46,6 +46,7 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
             "creatureTypes": [
                 "ZmbF_PoliceWomanNormal",
                 "Animal_CanisLupus_Grey"
+                // ici vous pouvez ajoutez de nouvel créature
             ]
         }
         // ici vous pouvez ajoutez les nouveaux container
@@ -63,7 +64,7 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 `"spawnCountMax": 2,` quantité maximum d'AirDrop_T1 pouvent étre généré en même temps  
 `"airdropLoot"` class contenant la gestion d'apparitions du loot  
 `"categories"` class d' appel au differente catégories d'items  
-`"Drink": 1,` nom de la categorie appeler pour généré le butin a l'interieur de l'AirDrop est la quantité d'items demandé  
+`"Weapons_01": 1,` nom de la categorie appeler pour généré le butin a l'interieur de l'AirDrop est la quantité d'items demandé  
 `"creatureCountMin": 5,` quantité minimum de creature rattacher a l'airdrop  
 `"creatureCountMax": 10,` quantité maximum de creature rattacher a l'airdrop  
 `"creatureTypes"` class contenant les différent types de créature vous pouvez aussi bien placer des zombies que des animaux  
@@ -77,29 +78,31 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 ### Guide Configurations de La gestion du loot des **AirDrop**
 ```
     "Categories": {
-        "Drink": [
+        "Weapons_01": [
             {
-                "item": "Canteen",
-                "attachments": []
-            },
-            {
-                "item": "WaterBottle",
-                "attachments": []
+                "item": "M4A1",
+                "attachments": [
+                    "M4_CQBBttstck",
+                    "M4_MPHndgrd",
+                    "ACOGOptic_6x",
+                    "M4_Suppressor",
+                    "Mag_STANAG_60Rnd"
+                ]
             }
-        ],
-        "Ammo_01": [
-            {
-                "item": "Ammo_556x45",
-                "attachments": []
-            },
-            {
-                "item": "Ammo_556x45Tracer",
-                "attachments": []
-            }
+            // Ici vous pouvez rajoutez de nouveaux items
         ]
+        // Ici vous pouvez rajoutez de nouvel Categories
     }
 }
 ```
+`"Categories"`  
+`"Weapons_01"` nom types de l'items   
+`"item": "M4A1"` déclarations d'un items `M4A1` nom types de l'items   
+`"attachments"`  déclarations des attachemnt de l'items  
+`"M4_CQBBttstck"` nom types de l'attachement  
+
+
+[exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'une nouvel catégorie d'items
 ---
 
 [retourner a la collections](https://github.com/Djolehaineux/DJO-mods-collection)
