@@ -19,29 +19,29 @@ Temps avant suppression des AirDrop dans le monde `"cleanTime": 1200.0,` Temps d
 
 Nom types des diférent AirDrop
 ```
-    "airdropTypes": [
-        "AirDrop_T1",
-        "AirDrop_T2",
-        "AirDrop_T3",
-        "AirDrop_T4"
-    ],
+"airdropTypes": [
+    "AirDrop_T1",
+    "AirDrop_T2",
+    "AirDrop_T3",
+    "AirDrop_T4"
+],
 ```
 Gestion des apparition des AirDrop `"airdropTypeConfigs"` 
-`AirDrop_T1` Début de la configuration de l'AirDrop_T1
+<p>`AirDrop_T1` Début de la configuration de l'AirDrop_T1<p/>
 
-`"positions"` class qui definie l'enssemble des position pour l'AirDrop_T1
-`"position"` points d'apparitions des AirDrop valeur des pos `X`, `Y`, `Z` 
-`"message"` contenue du message qui sera envoyée en jeux lors de l'apparitions
+<p>`"positions"` class qui definie l'enssemble des position pour l'AirDrop_T1 <p/>
+<p>`"position"` points d'apparitions des AirDrop valeur des pos `X`, `Y`, `Z` <p/>
+<p>`"message"` contenue du message qui sera envoyée en jeux lors de l'apparitions <p/>
 **EXEMPLE:**
 ```
-                {
-                    "position": [
-                        11872.8017578125,
-                        140.00003051757813,
-                        12555.943359375
-                    ],
-                    "message": "Alerte! Un airdrop a atterri a l' Airfield! (Krasno)"
-                }
+{
+    "position": [
+        11872.8017578125,
+        140.00003051757813,
+        12555.943359375
+    ],
+    "message": "Alerte! Un airdrop a atterri a l' Airfield! (Krasno)"
+}
 ```
 ---
 
