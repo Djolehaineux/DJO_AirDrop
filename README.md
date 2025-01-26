@@ -8,7 +8,7 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 - Placer la key qui se trouve à l'intérieur du dossier KEY du mod dans le dossier key de votre serveur
 - Déclarée le mods dans la barre de lancement de votre serveur
 
-### Guide Configurations
+### Guide Configurations de La gestion d'apparitions des **AirDrop**
 ```
 {
     "ConfigVersion": "1",
@@ -38,6 +38,7 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
                 "categories": {
                     "Drink": 1,
                     "Ammo_01": 2
+                    // ici vous pouvez ajoutez de nouvel categories d'items
                 }
             },
             "creatureCountMin": 5,
@@ -47,15 +48,12 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
                 "Animal_CanisLupus_Grey"
             ]
         }
+        // ici vous pouvez ajoutez les nouveaux container
     },
 ```
-
 `"isEnabled": 1,` Activer ou désactiver les AirDrop (1 = Activer / 0 = Désactiver)  
 `"spawnInterval": 1800.0,`Interval entre chaque vague d'apparition des AirDrop (Temps definie en seconde = 30 minutes)  
 `"cleanTime": 1200.0,`Temps avant suppression des AirDrop dans le monde (Temps definie en seconde = 20 minutes)  
-
-Nom types des diférent AirDrop
-
 `"airdropTypeConfigs"` Gestion des apparition des différent types d'AirDrop  
 `"AirDrop_T1"` Début de la configuration de l'AirDrop_T1  
 `"positions"` class qui definie l'enssemble des position pour l'AirDrop_T1  
@@ -72,8 +70,35 @@ Nom types des diférent AirDrop
 `"ZmbF_PoliceWomanNormal"` nom types d'un zombie  
 `"Animal_CanisLupus_Grey"` nom types d'un loup  
 
-
 [exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'un nouveau container  
+
+
+
+### Guide Configurations de La gestion du loot des **AirDrop**
+```
+    "Categories": {
+        "Drink": [
+            {
+                "item": "Canteen",
+                "attachments": []
+            },
+            {
+                "item": "WaterBottle",
+                "attachments": []
+            }
+        ],
+        "Ammo_01": [
+            {
+                "item": "Ammo_556x45",
+                "attachments": []
+            },
+            {
+                "item": "Ammo_556x45Tracer",
+                "attachments": []
+            }
+        ]
+    }
+```
 ---
 
 [retourner a la collections](https://github.com/Djolehaineux/DJO-mods-collection)
