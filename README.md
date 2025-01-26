@@ -71,10 +71,6 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 `"ZmbF_PoliceWomanNormal"` nom types d'un zombie  
 `"Animal_CanisLupus_Grey"` nom types d'un loup  
 
-[exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'un nouveau container  
-
-
-
 ### Guide Configurations de La gestion du loot des **AirDrop**
 ```
     "Categories": {
@@ -102,7 +98,7 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 `"M4_CQBBttstck"` nom types de l'attachement  
 
 
-[exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'une nouvel catégorie d'items  
+[exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'un nouveau container avec une nouvel catégorie d'items  
 
 ---
 
