@@ -23,6 +23,7 @@ Nom types des diférent AirDrop
     // ici vous avez la possibiliter de rejouter d'autre container exemple: SeaChest
 ],
 ```
+[exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'un nouveau container
 Gestion des apparition des AirDrop `"airdropTypeConfigs"` 
 `AirDrop_T1` Début de la configuration de l'AirDrop_T1  
 
