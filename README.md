@@ -100,6 +100,8 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 
 [exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'un nouveau container avec une nouvel catégorie d'items  
 
+Ci vous avez encore besoins d'aide n'hesiter pas a rejoindre mon [DISCORD](https://discord.gg/UXNKcxApkU) pour obtenire de l'aide
+
 ---
 
 [retourner a la collections](https://github.com/Djolehaineux/DJO-mods-collection)
