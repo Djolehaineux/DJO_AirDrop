@@ -14,8 +14,8 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 
 ### Guide Configurations
 Activer ou désactiver les AirDrop `"isEnabled": 1,` 1 = Activer / 0 = Désactiver
-Interval entre chaque vague d'apparition des AirDrop `"spawnInterval": 1800.0,`
-Temps avant suppression des AirDrop dans le monde `"cleanTime": 1200.0,`
+Interval entre chaque vague d'apparition des AirDrop `"spawnInterval": 1800.0,` Temps definie en seconde (30 minutes)
+Temps avant suppression des AirDrop dans le monde `"cleanTime": 1200.0,` Temps definie en seconde (20 minutes)
 
 Nom types des diférent AirDrop
 ```
@@ -27,6 +27,22 @@ Nom types des diférent AirDrop
     ],
 ```
 Gestion des apparition des AirDrop `"airdropTypeConfigs"` 
+`AirDrop_T1` Début de la configuration de l'AirDrop_T1
+
+`"positions"` class qui definie l'enssemble des position pour l'AirDrop_T1
+`"position"` points d'apparitions des AirDrop valeur des pos `X`, `Y`, `Z` 
+`"message"` contenue du message qui sera envoyée en jeux lors de l'apparitions
+**EXEMPLE:**
+```
+                {
+                    "position": [
+                        11872.8017578125,
+                        140.00003051757813,
+                        12555.943359375
+                    ],
+                    "message": "Alerte! Un airdrop a atterri a l' Airfield! (Krasno)"
+                }
+```
 ---
 
 [retourner a la collections](https://github.com/Djolehaineux/DJO-mods-collection)
