@@ -9,9 +9,10 @@ le fait de pouvoir paramètré le types de caisse est les créature offre la pos
 
 
 ## INSTALLATION
-- Placer le mod a la racine de votre serveur
-- Placer la key qui se trouve à l'intérieur du dossier 📂**KEY** du mod dans le dossier 📂**KEY** de votre serveur
-- Déclarée le mods dans la barre de lancement de votre serveur
+- Placer le mod a la racine de votre serveur.
+- Placer la key qui se trouve à l'intérieur du dossier 📂**KEY** du mod dans le dossier 📂**KEY** de votre serveur.
+- Déclarée le mods dans la barre de lancement de votre serveur.
+(la configurations peux changer suivant l'hebergeur)
 
 ### Guide Configurations de La gestion d'apparitions des **AirDrop**
 ```
