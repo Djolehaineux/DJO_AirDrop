@@ -20,6 +20,7 @@ Nom types des diférent AirDrop
     "AirDrop_T2",
     "AirDrop_T3",
     "AirDrop_T4"
+    // ici vous avez la possibiliter de rejouter d'autre container exemple: SeaChest
 ],
 ```
 Gestion des apparition des AirDrop `"airdropTypeConfigs"` 
