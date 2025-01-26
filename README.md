@@ -59,7 +59,7 @@ Nom types des diférent AirDrop
 `"airdropTypeConfigs"` Gestion des apparition des différent types d'AirDrop  
 `"AirDrop_T1"` Début de la configuration de l'AirDrop_T1  
 `"positions"` class qui definie l'enssemble des position pour l'AirDrop_T1  
-`"position"` points d'apparitions des AirDrop valeur des pos `X`, `Y`, `Z` 
+`"position"` points d'apparitions des AirDrop valeur des pos `X`, `Y`, `Z`  
 `"message"` contenue du message qui sera envoyée en jeux lors de l'apparitions  
 `"spawnCountMin": 1,` quantité minimum d'AirDrop_T1 pouvent étre généré en même temps  
 `"spawnCountMax": 2,` quantité maximum d'AirDrop_T1 pouvent étre généré en même temps  
