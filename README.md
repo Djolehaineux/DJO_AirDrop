@@ -95,8 +95,8 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
     }
 }
 ```
-`"Categories"`  
-`"Weapons_01"` nom types de l'items   
+`"Categories"` class contenant les différentes catégories d'items  
+`"Weapons_01"` nom de la catégories   
 `"item": "M4A1"` déclarations d'un items `M4A1` nom types de l'items   
 `"attachments"`  déclarations des attachemnt de l'items  
 `"M4_CQBBttstck"` nom types de l'attachement  
