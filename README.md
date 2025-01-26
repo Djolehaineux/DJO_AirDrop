@@ -27,10 +27,9 @@ Nom types des diférent AirDrop
 
 `"airdropTypeConfigs"` Gestion des apparition des différent types d'AirDrop  
     `AirDrop_T1` Début de la configuration de l'AirDrop_T1  
-
-    `"positions"` class qui definie l'enssemble des position pour l'AirDrop_T1  
-        `"position"` points d'apparitions des AirDrop valeur des pos `X`, `Y`, `Z`  
-        `"message"` contenue du message qui sera envoyée en jeux lors de l'apparitions  
+        `"positions"` class qui definie l'enssemble des position pour l'AirDrop_T1  
+            `"position"` points d'apparitions des AirDrop valeur des pos `X`, `Y`, `Z`  
+            `"message"` contenue du message qui sera envoyée en jeux lors de l'apparitions  
 
 **EXEMPLE:**
 ```
