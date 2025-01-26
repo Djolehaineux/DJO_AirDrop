@@ -9,9 +9,9 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 - Déclarée le mods dans la barre de lancement de votre serveur
 
 ### Guide Configurations
-Activer ou désactiver les AirDrop `"isEnabled": 1,` 1 = Activer / 0 = Désactiver  
-Interval entre chaque vague d'apparition des AirDrop `"spawnInterval": 1800.0,` Temps definie en seconde (30 minutes)  
-Temps avant suppression des AirDrop dans le monde `"cleanTime": 1200.0,` Temps definie en seconde (20 minutes)  
+`"isEnabled": 1,` Activer ou désactiver les AirDrop (1 = Activer / 0 = Désactiver)  
+`"spawnInterval": 1800.0,`Interval entre chaque vague d'apparition des AirDrop (Temps definie en seconde = 30 minutes)  
+`"cleanTime": 1200.0,`Temps avant suppression des AirDrop dans le monde (Temps definie en seconde = 20 minutes)  
 
 Nom types des diférent AirDrop
 ```
