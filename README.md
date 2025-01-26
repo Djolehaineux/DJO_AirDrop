@@ -41,7 +41,7 @@ le fait de pouvoir paramètré le types de caisse est les créature offre la pos
                 // ici vous pouvez ajoutez de nouvel position
             ],
             "spawnCountMin": 1,
-            "spawnCountMax": 2,
+            "spawnCountMax": 1,
             "airdropLoot": {
                 "categories": {
                     "Weapons_01": 1
