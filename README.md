@@ -105,7 +105,7 @@ le fait de pouvoir paramètré le types de caisse est les créature offre la pos
 `"M4_CQBBttstck"` nom types de l'attachement  
 
 
-[exemple](https://github.com/Djolehaineux/DJO-mods-collection) d'integration d'un nouveau container avec une nouvel catégorie d'items  
+[exemple](https://github.com/Djolehaineux/DJO_AirDrop/blob/main/Exemple_Settings.json) d'integration d'un nouveau container avec une nouvel catégorie d'items  
 
 Ci vous avez encore besoins d'aide n'hesiter pas a rejoindre mon [DISCORD](https://discord.gg/UXNKcxApkU) pour obtenire de l'aide
 
