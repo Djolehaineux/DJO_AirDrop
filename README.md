@@ -65,7 +65,7 @@ Nom types des diférent AirDrop
 `"spawnCountMax": 2,` quantité maximum d'AirDrop_T1 pouvent étre généré en même temps  
 `"airdropLoot"` class contenant la gestion d'apparitions du loot  
 `"categories"` class d' appel au differente catégories d'items  
-`"Drink": 1,` nom de la categorie appeler pour généré le butin a l'interieur de l'AirDrop `1` est la quantité d'items demandé  
+`"Drink": 1,` nom de la categorie appeler pour généré le butin a l'interieur de l'AirDrop est la quantité d'items demandé  
 `"creatureCountMin": 5,` quantité minimum de creature rattacher a l'airdrop  
 `"creatureCountMax": 10,` quantité maximum de creature rattacher a l'airdrop  
 `"creatureTypes"` class contenant les différent types de créature vous pouvez aussi bien placer des zombies que des animaux  
