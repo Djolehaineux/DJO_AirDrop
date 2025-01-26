@@ -8,10 +8,6 @@ Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_Ai
 - Placer la key qui se trouve à l'intérieur du dossier KEY du mod dans le dossier key de votre serveur
 - Déclarée le mods dans la barre de lancement de votre serveur
 
-
-### FICHIER FOURNI
-- 
-
 ### Guide Configurations
 Activer ou désactiver les AirDrop `"isEnabled": 1,` 1 = Activer / 0 = Désactiver
 Interval entre chaque vague d'apparition des AirDrop `"spawnInterval": 1800.0,` Temps definie en seconde (30 minutes)
