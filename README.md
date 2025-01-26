@@ -13,6 +13,7 @@ le fait de pouvoir paramètré le types de caisse est les créature offre la pos
 - Placer la key qui se trouve à l'intérieur du dossier 📂**KEY** du mod dans le dossier 📂**KEY** de votre serveur.
 - Ajoutez `@DJO_AirDrop` a la barre de lancement de vot mods.  
 (la configurations peux changer suivant l'hebergeur)
+- Un dossier `DJO_AirDrop`contenant un fichier `Settings.json` serat crée dans le dossier `profile / config` de votre serveur des le premier démarage.
 
 ### Guide Configurations de La gestion d'apparitions des **AirDrop**
 ```
