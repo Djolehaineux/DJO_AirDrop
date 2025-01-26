@@ -2,9 +2,10 @@
 Bienvenue sur Mon guide d'installation est de configuration pour mon mods DJO_AirDrop
 
 ### Déscriptions
-Ce mod est mon premier mod d'AirDrop, il peut être entièrement configurable. Vous pouvez aussi bien l'utiliser avec mes containers que avec des containers provenant d'autres mods.
-Les AirDrop générés n'ont pas de persistance et sont donc supprimés de la carte à chaque redémarrage.
-Un message est envoyé dans le canal de chat à chaque génération d'Airdrop.
+Ce mod est mon premier mod d'AirDrop, il peut être entièrement configurable.  
+Vous pouvez aussi bien l'utiliser avec mes containers que avec des containers provenant d'autres mods.  
+Les AirDrop générés n'ont pas de persistance et sont donc supprimés de la carte à chaque redémarrage.  
+Un message est envoyé a tous les joueurs dans le canal de chat à chaque génération d'Airdrop.  
 Le fait de pouvoir paramétrer le type de caisse et les créatures offre la possibilité de l'utiliser pour créer des hordes.
 
 
