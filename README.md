@@ -60,24 +60,24 @@ Le fait de pouvoir paramétrer le type de caisse et les créatures offre la poss
         // ici vous pouvez ajoutez les nouveaux container
     },
 ```
-`"isEnabled": 1,` Activer ou désactiver les AirDrop (1 = Activer / 0 = Désactiver)  
-`"spawnInterval": 1800.0,`Interval entre chaque vague d'apparition des AirDrop (Temps défini en seconde = 30 minutes)  
-`"cleanTime": 1200.0,`Temps avant suppression des AirDrop dans le monde (Temps défini en seconde = 20 minutes)  
-`"airdropTypeConfigs"` Gestion des apparition des différent types d'AirDrop  
-`"AirDrop_T1"` Début de la configuration de l'AirDrop_T1  
-`"positions"` class qui definie l'enssemble des position pour l'AirDrop_T1  
-`"position"` points d'apparitions des AirDrop valeur des pos `X`, `Y`, `Z`  
-`"message"` contenue du message qui sera envoyée en jeux lors de l'apparitions  
-`"spawnCountMin": 1,` quantité minimum d'AirDrop_T1 pouvent étre généré en même temps  
-`"spawnCountMax": 2,` quantité maximum d'AirDrop_T1 pouvent étre généré en même temps  
-`"airdropLoot"` class contenant la gestion d'apparitions du loot  
-`"categories"` class d' appel au differente catégories d'items  
-`"Weapons_01": 1,` nom de la categorie appeler pour généré le butin a l'interieur de l'AirDrop est la quantité d'items demandé  
-`"creatureCountMin": 5,` quantité minimum de creature rattacher a l'airdrop  
-`"creatureCountMax": 10,` quantité maximum de creature rattacher a l'airdrop  
-`"creatureTypes"` class contenant les différent types de créature vous pouvez aussi bien placer des zombies que des animaux  
-`"ZmbF_PoliceWomanNormal"` nom types d'un zombie  
-`"Animal_CanisLupus_Grey"` nom types d'un loup  
+`"isEnabled": 1,` Activer ou désactiver les AirDrop (1 = Activer / 0 = Désactiver).  
+`"spawnInterval": 1800.0,`Intervalle entre chaque vague d'apparition des AirDrop (Temps défini en seconde = 30 minutes).  
+`"cleanTime": 1200.0,`Temps avant suppression des AirDrop dans le monde (Temps défini en seconde = 20 minutes).  
+`"airdropTypeConfigs"` Gestion des apparitions des différents types d'AirDrop.  
+`"AirDrop_T1"` Début de la configuration de l'AirDrop_T1.  
+`"positions"` Class qui définit l'ensemble des positions pour l'AirDrop_T1.  
+`"position"` Points d'apparition des AirDrop, valeur des pos `X`, `Y`, `Z`  
+`"message"` Contenu du message qui sera envoyé en jeu lors de l'apparition.  
+`"spawnCountMin": 1,` Quantité minimum d'AirDrop_T1 peuvent être générées en même temps.  
+`"spawnCountMax": 2,` Quantité maximum d'AirDrop_T1 peuvent être générées en même temps.  
+`"airdropLoot"` Class contenant la gestion d'apparitions du loot.  
+`"categories"` Class d'appel aux différentes catégories d'items.  
+`"Weapons_01": 1,` Nom de la catégorie appelée pour générer le butin à l'intérieur de l'AirDrop et la quantité d'items demandée  
+`"creatureCountMin": 5,` Quantité minimum de créatures rattachées à l'airdrop.  
+`"creatureCountMax": 10,` Quantité maximale de créatures rattachées à l'airdrop.  
+`"creatureTypes"` Class contenant les différents types de créatures. Vous pouvez aussi bien placer des zombies que des animaux.  
+`"ZmbF_PoliceWomanNormal"` Nom types d'un zombie.  
+`"Animal_CanisLupus_Grey"` Nom types d'un loup.  
 
 ### Guide Configurations de La gestion du loot des **AirDrop**
 ```
@@ -99,16 +99,16 @@ Le fait de pouvoir paramétrer le type de caisse et les créatures offre la poss
     }
 }
 ```
-`"Categories"` class contenant les différentes catégories d'items  
-`"Weapons_01"` nom de la catégories   
-`"item": "M4A1"` déclarations d'un items `M4A1` nom types de l'items   
-`"attachments"`  déclarations des attachemnt de l'items  
-`"M4_CQBBttstck"` nom types de l'attachement  
+`"Categories"` Class contenant les différentes catégories d'items.  
+`"Weapons_01"` Nom de la catégorie.   
+`"item": "M4A1"` Déclarations d'un item 'M4A1', noms types de l'items.   
+`"attachments"`  Déclarations des attachements de l'items.  
+`"M4_CQBBttstck"` Nom types de l'attachement.  
 
 
-[exemple](https://github.com/Djolehaineux/DJO_AirDrop/blob/main/Exemple_Settings.json) d'integration d'un nouveau container avec une nouvel catégorie d'items  
+[exemple](https://github.com/Djolehaineux/DJO_AirDrop/blob/main/Exemple_Settings.json) d'intégration d'un nouveau conteneur avec une nouvelle catégorie d'items.  
 
-Ci vous avez encore besoins d'aide n'hesiter pas a rejoindre mon [DISCORD](https://discord.gg/UXNKcxApkU) pour obtenire de l'aide
+Si vous avez encore besoin d'aide, n'hésitez pas à rejoindre mon [DISCORD](https://discord.gg/UXNKcxApkU) pour obtenir de l'aide.
 
 ---
 
