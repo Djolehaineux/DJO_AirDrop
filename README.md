@@ -101,7 +101,7 @@ Le fait de pouvoir paramétrer le type de caisse et les créatures offre la poss
 ```
 `"Categories"` Class contenant les différentes catégories d'items.  
 `"Weapons_01"` Nom de la catégorie.   
-`"item": "M4A1"` Déclarations d'un item 'M4A1', noms types de l'items.   
+`"item": "M4A1"` Déclarations d'un item `M4A1`, noms types de l'items.   
 `"attachments"`  Déclarations des attachements de l'items.  
 `"M4_CQBBttstck"` Nom types de l'attachement.  
 
