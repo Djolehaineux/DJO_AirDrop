@@ -72,7 +72,7 @@ Le fait de pouvoir paramétrer le type de caisse et les créatures offre la poss
 `"spawnCountMax": 2,` Quantité maximum d'AirDrop_T1 peuvent être générées en même temps.  
 `"airdropLoot"` Class contenant la gestion d'apparitions du loot.  
 `"categories"` Class d'appel aux différentes catégories d'items.  
-`"Weapons_01": 1,` Nom de la catégorie appelée pour générer le butin à l'intérieur de l'AirDrop et la quantité d'items demandée  
+`"WeaponsT1": 1,` Nom de la catégorie appelée pour générer le butin à l'intérieur de l'AirDrop et la quantité de pack d'items demandée  
 `"creatureCountMin": 5,` Quantité minimum de créatures rattachées à l'airdrop.  
 `"creatureCountMax": 10,` Quantité maximale de créatures rattachées à l'airdrop.  
 `"creatureTypes"` Class contenant les différents types de créatures. Vous pouvez aussi bien placer des zombies que des animaux.  
@@ -82,25 +82,54 @@ Le fait de pouvoir paramétrer le type de caisse et les créatures offre la poss
 ### Guide Configurations de La gestion du loot des **AirDrop**
 ```
     "Categories": {
-        "Weapons_01": [
-            {
-                "item": "M4A1",
-                "attachments": [
-                    "M4_CQBBttstck",
-                    "M4_MPHndgrd",
-                    "ACOGOptic_6x",
-                    "M4_Suppressor",
-                    "Mag_STANAG_60Rnd"
-                ]
-            }
-            // Ici vous pouvez rajoutez de nouveaux items
-        ]
+		"WeaponsT1": [
+			"Pack1": {
+				{
+					"item": "M4A1",
+					"attachments": [
+						"M4_CQBBttstck",
+						"M4_MPHndgrd",
+						"ACOGOptic_6x",
+						"M4_Suppressor",
+						"Mag_STANAG_60Rnd"
+					]
+				},
+				{
+					"item": "Mag_STANAG_60Rnd",
+					"attachments": []
+				},
+				{
+					"item": "Ammo_556x45",
+					"attachments": []
+				}
+			},
+			"Pack2": {,
+				{
+					"item": "Aug",
+					"attachments": [
+						"ACOGOptic_6x",
+						"M4_Suppressor",
+						"Mag_STANAG_60Rnd"
+					]
+				},
+				{
+					"item": "Mag_STANAG_60Rnd",
+					"attachments": []
+				},
+				{
+					"item": "Ammo_556x45",
+					"attachments": []
+				}
+			}
+		],
         // Ici vous pouvez rajoutez de nouvel Categories
     }
 }
 ```
 `"Categories"` Class contenant les différentes catégories d'items.  
-`"Weapons_01"` Nom de la catégorie.   
+`"WeaponsT1"` Nom de la catégorie.   
+`"Pack1"` Nom du Pack d'items a invoquer.   
+`"Pack2"` Nom du Pack d'items a invoquer.  
 `"item": "M4A1"` Déclarations d'un item `M4A1`, noms types de l'items.   
 `"attachments"`  Déclarations des attachements de l'items.  
 `"M4_CQBBttstck"` Nom types de l'attachement.  
